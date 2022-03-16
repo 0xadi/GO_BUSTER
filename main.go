@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	//words := readwordlist("/home/ninja/Downloads/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt")
+	// full path of wordlist between readwordlist()
 	words := readwordlist("wordlist.txt")
 	print(words)
 
